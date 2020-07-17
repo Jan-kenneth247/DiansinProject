@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"
+    ></script>
+    <script src="BookOfAtlas.js"></script>
+    <link rel="stylesheet" type="text/css" href="BookOfAtlas.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Index</title>
+  </head>
+  <body>
+    <header>
+        <h2>Book of Atlas</h2>
+    </header>
+    <section>
+        <div class="sidenav">
+            <button class="dropdown-btn">Country 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Alphabetical Order</a>
+                <a href="#">Population Order</a>
+                <a href="#">Areas Order</a>
+            </div>
+            <button class="dropdown-btn">Group by
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Continent</a>
+                <a href="#">Organization</a>
+                <a href="#">Driven Position</a>
+            </div>
+          </div>
+          
+          <table class="gridStyle">
+              <tbody id="getCountry" ></tbody>
+          </table>
+  </section>
+    <!-- <table border="1">
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Capital</th>
+          <th>Area</th>
+          <th>Population</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table> -->
+    
+  </body>
+</html>
